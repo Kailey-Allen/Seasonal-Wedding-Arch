@@ -368,6 +368,7 @@
 			}
 		},
 	//CWC compat - Extra Decor
+	//These are separate because they're the only patches with Update OnLocationChange
 		{
 			"Action": "Include",
 			"FromFile": "data/CWC_ExtraDecor.json",

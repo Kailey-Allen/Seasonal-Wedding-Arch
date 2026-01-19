@@ -5,9 +5,6 @@
   "Description": "A seasonal floral wedding arch.",
   "UniqueID": "KaileyStardew.WeddingArch",
   "UpdateKeys": [ "Nexus:23020" ],
-  "Dependencies": [
-		{"UniqueID": "Wildflour.AtelierGoods", "IsRequired": false}
-	  ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
   }

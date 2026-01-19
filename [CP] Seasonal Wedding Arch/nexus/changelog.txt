@@ -1,3 +1,4 @@
+1.3.0
 -Added Cornucopia - More Flowers compat:
 	-All seasons: Seasonal Rose, Prismatic rose
 	-Spring: Lilac, Morning Glory
