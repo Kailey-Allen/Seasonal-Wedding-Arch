@@ -301,7 +301,7 @@
 	//Load CWC Compat
         {
             "Action": "Load",
-            "Target": "KaileyStardew.WeddingArch/{{Season}}_{{ArchTypeToken}}_CWC_extra, KaileyStardew.WeddingArch/{{Custom Wedding Ceremony Rug Colour}}_CWC_rug, KaileyStardew.WeddingArch/{{WoodTypeToken}}_CWC_wood",
+            "Target": "KaileyStardew.WeddingArch/{{Season}}_{{ArchTypeToken}}_CWC_extra, KaileyStardew.WeddingArch/{{CWC Rug Colour}}_CWC_rug, KaileyStardew.WeddingArch/{{WoodTypeToken}}_CWC_wood",
             "FromFile": "assets/CWC/{{TargetWithoutPath}}.png"
         },	
 //VANILLA EDITS
@@ -370,12 +370,12 @@
 		{
 			"Action": "EditImage",
 			"Target": "Maps/WeddingDecorations",
-			"FromFile": "assets/CWC/{{Custom Wedding Ceremony Rug Colour}}_CWC_rug.png",
+			"FromFile": "assets/CWC/{{CWC Rug Colour}}_CWC_rug.png",
 			"FromArea": { "X": 0, "Y": 0, "Width": 80, "Height": 48 },
 			"ToArea": { "X": 0, "Y": 80, "Width": 80, "Height": 48 },
 			"Priority": "Late",
 			"When": {
-				"Custom Wedding Ceremony Rug Colour": "Green, Beige, White",
+				"CWC Rug Colour": "Green, Beige, White",
 				"HasMod": "Airyn.CWC",
 				"Enable Mod": "true"
 			}
@@ -386,7 +386,7 @@
 			"Action": "Include",
 			"FromFile": "data/CWC_ExtraDecor.json",
 			"When": {
-					"Custom Wedding Ceremony Decor": true,
+					"CWC Decor": true,
 					"HasMod": "Airyn.CWC",
 					"DayEvent": "wedding",	
 					"Enable Mod": "true"				
